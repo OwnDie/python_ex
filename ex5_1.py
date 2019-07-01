@@ -1,6 +1,6 @@
 from sys import argv
 
-network, mask_decimial = argv[1:]
+network, mask_declimial = argv[1:]
 
 #ip_address = input('Please input network and mask (example 10.1.1.0/24): ')
 
