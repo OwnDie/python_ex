@@ -1,4 +1,5 @@
 
+from pprint import pprint
 
 def parse_cdp_neigbors(command_output):
 	command_output_list = command_output.split('\n')
@@ -22,4 +23,4 @@ def parse_cdp_neigbors(command_output):
 if __name__ == '__main__':
 	with open('sh_cdp_n_sw1.txt', 'r') as f:
 		cdp_dict = parse_cdp_neigbors(f.read())
-	print(cdp_dict)
+	pprint(cdp_dict)
